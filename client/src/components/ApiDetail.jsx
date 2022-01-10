@@ -23,7 +23,7 @@ export default function ApiDetail() {
     return (
         <div>
             <h2>{apiDetail.fields?.title}</h2>
-            <img style={{width: "300px"}} src={apiDetail.fields.image} alt={apiDetail.fields.title}/>
+            <img style={{width: "300px"}} src={apiDetail.fields.imageUrl } alt={apiDetail.fields.title}/>
             <h3>{apiDetail.fields?.description}</h3> 
             <br/>
             <h4>{apiDetail.fields?.link}</h4>

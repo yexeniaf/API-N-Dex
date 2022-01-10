@@ -25,7 +25,7 @@ export default function ApiList() {
                                     <h2>{api.fields.title} </h2>
                                     <img 
                                         style={{width: '300px'}}
-                                        src={api.fields.image}
+                                        src={api.fields.imageUrl}
                                         alt={api.fields.title} />
                                 </div>
                             </Link>
