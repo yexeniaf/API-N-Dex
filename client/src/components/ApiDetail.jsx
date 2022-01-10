@@ -14,11 +14,15 @@ export default function ApiDetail() {
         fetchApi();
     }, [])
 
+    if (!api.fields) {
+        return <div>LOADING</div>
+    }
+
     return (
         <div>
-            <h2>{api.fields.title}</h2>
+            <h2>{api.fields?.title}</h2>
             <img style={{width: "300px"}} src={api.fields.image} alt={api.fields.title}/>
-            <h3>{api.fields.description}</h3> 
+            <h3>{api.fields?.description}</h3> 
             <DeleteButton id={id}/>
         </div>
     )
