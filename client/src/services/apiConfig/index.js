@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const BASE = process.env.REACT_APP_AIRTABLE_BASE;
-const KEY = process.env.REACT_APP_AIRTABKE_KEY;
+const KEY = process.env.REACT_APP_AIRTABLE_KEY;
 
-const baseURL = `https://api.airtable.com/v0/${BASE}/Characters`;
+const baseURL = `https://api.airtable.com/v0/${BASE}/Apis`;
 
 const api = axios.create({
     baseURL,

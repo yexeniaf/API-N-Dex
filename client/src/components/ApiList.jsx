@@ -15,7 +15,7 @@ export default function ApiList() {
     }, [])
 
 
-    return <div class="container">
+    return <div>
             <ul>
                 {apis.map((api) => {
                     return (
@@ -31,9 +31,7 @@ export default function ApiList() {
                             </Link>
                         </li>
                     )
-
                 })}
             </ul>
-        </div>
-    
+        </div>    
 }
