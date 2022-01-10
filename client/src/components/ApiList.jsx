@@ -23,7 +23,10 @@ export default function ApiList() {
                             <Link to={`/apis/${api.id}`}>
                                 <div>
                                     <h2>{api.fields.title} </h2>
-                                    
+                                    <img 
+                                        style={{width: '300px'}}
+                                        src={api.fields.image}
+                                        alt={api.fields.title} />
                                 </div>
                             </Link>
                         </li>
