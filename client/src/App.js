@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <nav>THIS WILL BE A NAVBAR</nav>
       <Routes>
-        <Route />
+        <Route path="/" element={<div>API-N-Dex</div>} />
         <Route />
         <Route />
         <Route />
