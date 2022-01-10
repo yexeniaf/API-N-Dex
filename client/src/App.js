@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 function App() {
  
   return (
     <div className="App">
-      <nav>THIS WILL BE A NAVBAR</nav>
+      <Navbar />
       <Routes>
         <Route path="/" element={<div>API-N-Dex</div>} />
         <Route path="/apis" element={<div>API List</div>} />
