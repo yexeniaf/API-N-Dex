@@ -3,9 +3,34 @@ import { Link } from "react-router-dom";
 import api from "../services/apiConfig";
 
 export default function ApiList() {
-    return (
-        <div>
-            
+    const [apis, setApis] = useState([]);
+
+    useEffect(() => {
+        const fetchApis = async() => {
+            const res = await api.get();
+            console.log(res.data.records);
+            setApis(res.data.records)
+        }
+        fetchApis()
+    }, [])
+
+
+    return <div class="container">
+            <ul>
+                {apis.map((api) => {
+                    return (
+                        <li key={api.id}>
+                            <Link to={`/apis/${api.id}`}>
+                                <div>
+                                    <h2>{api.fields.title} </h2>
+                                    
+                                </div>
+                            </Link>
+                        </li>
+                    )
+
+                })}
+            </ul>
         </div>
-    )
+    
 }
