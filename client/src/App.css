@@ -12,6 +12,6 @@ nav{
   color: #E85A4F;
 }
 
-.navButtons{
-  display: flex;
+.btn {
+  margin: 5px;
 }
