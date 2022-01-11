@@ -23,8 +23,8 @@ export default function NewApi() {
         navigate("/apis")
     }
 
-    const handleTextInput = (event) => {
-        const {name, value} = event.target;
+    const handleTextInput = (e) => {
+        const {name, value} = e.target;
         setInput((prevInput) => ({
             ...prevInput,
             [name]: value,
