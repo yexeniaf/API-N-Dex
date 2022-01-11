@@ -11,6 +11,10 @@ const default_input = {
 }
 
 export default function NewApi() {
+    const [input, setInput] = useState(default_input)
+
+    const navigate = useNavigate();
+
     return (
         <div>
             
