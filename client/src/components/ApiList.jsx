@@ -15,7 +15,7 @@ export default function ApiList() {
     }, [])
 
 
-    return <div>
+    return <div className="card">
             <ul>
                 {apis.map((api) => {
                     return (
@@ -24,7 +24,8 @@ export default function ApiList() {
                                 <div>
                                     <h2>{api.fields.title} </h2>
                                     <img 
-                                        style={{width: '300px'}}
+
+                                        style={{width: '200px'}}
                                         src={api.fields.imageUrl}
                                         alt={api.fields.title} />
                                 </div>
