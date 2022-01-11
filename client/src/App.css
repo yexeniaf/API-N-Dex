@@ -34,6 +34,12 @@ nav{
   background-color: #374885;
 }
 
-.rules{
+.rules-container{
   list-style-type: none;
+  background-color: #374885;
+  margin-top: 10px;
+  margin-left: 75px;
+  margin-right: 75px; 
+  color:white;
+
 }
