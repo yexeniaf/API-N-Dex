@@ -7,13 +7,13 @@ export default function Navbar() {
             <h1 id="siteName" >API-N-Dex</h1>
             <div>
              <button type="button" className="btn btn-warning">
-                   <Link to="/">Home</Link>
+                   <Link className="text-link" to="/">Home</Link>
              </button>    
              <button type="button" className="btn btn-warning">
-                 <Link to="/apis">API List</Link>
+                 <Link className="text-link" to="/apis">API List</Link>
              </button>
              <button type="button" className="btn btn-warning">
-                    <Link to="/new">Add A New API</Link>
+                    <Link className="text-link" to="/new">Add A New API</Link>
              </button>
             </div>
 
