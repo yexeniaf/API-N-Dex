@@ -1,5 +1,7 @@
 .App {
-  text-align: center;  
+  text-align: center;
+  Background-color: #A8D0E6;
+  height: 700px;
 }
 
 nav{
@@ -24,5 +26,14 @@ nav{
 }
 
 .container{
-  background-color: #A8D0E6;
+  background-color: #374885;
+  color: white;
+}
+
+.list-group-item{
+  background-color: #374885;
+}
+
+.rules{
+  list-style-type: none;
 }

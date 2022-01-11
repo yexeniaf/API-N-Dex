@@ -3,8 +3,14 @@ import React from 'react'
 export default function HomePage() {
     return (
         <div class="jumbotron">
-            <h1 class="display-4">API-N-Dex</h1>
-                <p class="container">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h1 className="display-4">API-N-Dex</h1>
+                <p className="container lead">
+                    Rules For This Site: 
+                </p>
+                <br/>
+                <ul className="rules container">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
+                </ul>
         </div>
         
     )
