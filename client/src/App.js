@@ -7,8 +7,8 @@ import ApiDetail from './components/ApiDetail';
 import NewApi from './components/NewApi';
 
 function App() {
-  console.log(process.env.REACT_APP_AIRTABLE_BASE)
-  console.log(process.env.REACT_APP_AIRTABLE_KEY)
+  // console.log(process.env.REACT_APP_AIRTABLE_BASE)
+  // console.log(process.env.REACT_APP_AIRTABLE_KEY)
  
   return (
     <div className="App">

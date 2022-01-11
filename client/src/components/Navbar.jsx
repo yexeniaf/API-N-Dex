@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <div>
+        <nav className="navbar navbar-light">
             <Link to="/">
                 <h1>API-N-Dex</h1>
             </Link>
@@ -14,6 +14,6 @@ export default function Navbar() {
                 <Link to="/new">Add A New API</Link>
             </button>
 
-        </div>
+        </nav>
     )
 }
