@@ -3,7 +3,7 @@ import React from 'react'
 export default function HomePage() {
     return (
         <div class="jumbotron">
-            <h1 className="display-4" color='##E85A4F'>API-N-Dex</h1>
+            <h1 className="display-4" style={{color:'salmon'}}>API-N-Dex</h1>
                 <p className="container lead">
                     Rules For This Site: 
                 </p>
