@@ -15,8 +15,31 @@ export default function NewApi() {
 
     const navigate = useNavigate();
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const fields = input;
+        const res = await api.post("/", {fields});
+        setInput(default_input);
+        navigate("/apis")
+    }
+
+    const handleTextInput = (event) => {
+        const {name, value} = event.target;
+        setInput((prevInput) => ({
+            ...prevInput,
+            [name]: value,
+        }))
+    };
+
+
     return (
-        <div>
+        <div> Add New API
+            <Form
+                input={input}
+                handleTextInput={handleTextInput}
+                handleSubmit={handleSubmit}
+                type={"Create"} 
+            />
             
         </div>
     )
