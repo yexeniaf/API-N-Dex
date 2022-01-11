@@ -3,17 +3,19 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <nav className="navbar sticky-top navbar-dark bg-dark">
-            <h1 id="siteName">API-N-Dex</h1>
-            <button className="navButtons">
-                <Link to="/">Home</Link>
-            </button>    
-            <button className="navButtons">
-                <Link to="/apis">API List</Link>
-            </button>
-            <button className="navButtons">
-                <Link to="/new">Add A New API</Link>
-            </button>
+        <nav className="navbar sticky-top navbar-dark bg-dark justify-content-between">
+            <h1 id="siteName" >API-N-Dex</h1>
+            <div>
+             <button>
+                   <Link to="/">Home</Link>
+             </button>    
+             <button>
+                 <Link to="/apis">API List</Link>
+             </button>
+             <button>
+                    <Link to="/new">Add A New API</Link>
+             </button>
+            </div>
 
         </nav>
     )
