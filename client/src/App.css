@@ -6,6 +6,7 @@ nav{
   margin: 5px;
   padding: 7px;
   border-radius: 2px;
+  background-color: #24305E;
 }
 
 #siteName{
@@ -14,6 +15,7 @@ nav{
 
 .btn {
   margin: 5px;
+  padding: 5px;
 }
 
 .text-link {

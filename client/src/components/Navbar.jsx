@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <nav className="navbar sticky-top navbar-dark bg-dark justify-content-between">
+        <nav className="navbar sticky-top justify-content-between">
             <h1 id="siteName" >API-N-Dex</h1>
             <div>
              <button type="button" className="btn btn-warning">
