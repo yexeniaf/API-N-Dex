@@ -5,6 +5,7 @@ export default function Form(props) {
     return (
         <form onSubmit={props.handleSubmit} >
             <label>Title</label>
+            <br/>
             <input 
                 name="title"
                 value={title}
@@ -13,6 +14,7 @@ export default function Form(props) {
             />   
             <br/>
             <label>Description</label>
+            <br/>
             <input 
                 name="description"
                 value={description}
@@ -21,6 +23,7 @@ export default function Form(props) {
             />   
             <br/>
             <label>Link</label>
+            <br/>
             <input 
                 name="link"
                 value={link}
@@ -29,12 +32,14 @@ export default function Form(props) {
             />   
             <br/>
             <label>API Image Url</label>
+            <br/>
             <input 
                 name="imageUrl"
                 value={imageUrl}
                 placeholder="Add the API's image URL"
                 onChange={props.handleTextInput}
             />  
+            <br/>
             <br/>
             <button>{props.type}</button>   
         </form>
