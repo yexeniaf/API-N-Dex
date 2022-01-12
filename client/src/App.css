@@ -22,8 +22,9 @@
 
 }
 
-.col-sm-6{
+.col-sm-12{
   display: flex;
+  justify-content: space-evenly;
 }
 
 
