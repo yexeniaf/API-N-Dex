@@ -22,6 +22,9 @@
 
 }
 
+.col-sm-6{
+  display: flex;
+}
 
 
 .detail-container{
