@@ -5,10 +5,9 @@ export default function HomePage() {
     return (
         <div class="jumbotron">
             <h1 className="display-4" style={{color:'salmon'}}>API-N-Dex</h1>
-                <p className="container lead">
+                <p className="rules-container">
                     Rules For This Site: 
-                </p>
-                <ul className="rules-container">
+                <ul style={{listStyleType:'none'}}>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
                     <br/>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
@@ -21,6 +20,7 @@ export default function HomePage() {
                     <br/>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
                 </ul>
+                </p>
         </div>
         
     )

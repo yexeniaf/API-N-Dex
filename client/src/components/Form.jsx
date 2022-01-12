@@ -3,7 +3,7 @@ export default function Form(props) {
 
 
     return (
-        <form id="form-box" onSubmit={props.handleSubmit} >
+        <form className="new-form" onSubmit={props.handleSubmit} >
             <label>Title</label>
             <br/>
             <input 

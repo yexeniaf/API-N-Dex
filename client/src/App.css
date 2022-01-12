@@ -35,7 +35,6 @@ nav{
 }
 
 .rules-container{
-  list-style-type: none;
   background-color: #374885;
   margin-top: 10px;
   margin-left: 75px;
@@ -54,6 +53,4 @@ nav{
   padding-top: 20px;
 }
 
-#form-box{
-  font-size: 18px;
-}
+
