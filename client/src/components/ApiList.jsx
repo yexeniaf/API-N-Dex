@@ -15,9 +15,8 @@ export default function ApiList() {
     }, [])
 
 
-    return <div className="row">
-            <div className="col-sm-6">
-            <div classNmae="card">                
+    return <div className="card-group">
+            <div>                
                 {apis.map((api) => {
                     return (
                         <div className ="card-body" key={api.id}>
@@ -34,7 +33,6 @@ export default function ApiList() {
                         </div>
                     )
                 })}
-            </div>    
             </div >
         </div>    
 }

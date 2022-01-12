@@ -43,3 +43,9 @@ nav{
   color:white;
 
 }
+.detail-container{
+  background-color: wheat;
+  margin: 25px;
+  padding: 15px;
+  font-size: small;
+}
