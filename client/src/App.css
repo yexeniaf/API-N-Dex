@@ -22,7 +22,13 @@
 
 }
 
+.card{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .col-sm-12{
+  margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
 }
