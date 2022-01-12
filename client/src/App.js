@@ -6,6 +6,7 @@ import ApiList from './components/ApiList';
 import ApiDetail from './components/ApiDetail';
 import NewApi from './components/NewApi';
 import HomePage from './components/HomePage';
+import Footer from './components/Footer';
 
 function App() {
   // console.log(process.env.REACT_APP_AIRTABLE_BASE)
@@ -22,6 +23,8 @@ function App() {
         <Route path="/apis/:id" element={<ApiDetail />}/>
         <Route path="/new" element={<NewApi />}/>
       </Routes>
+      <Footer />
+
 
     </div>
   );
