@@ -9,7 +9,9 @@
   padding-left: 10px;
 }
 
-
+.search-form{
+  display: flex;
+}
 
 .container{
   background-color: #374885;
