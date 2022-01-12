@@ -1,7 +1,7 @@
+
 .App {
   text-align: center;
-  Background-color: #A8A7A7;
-  height: 1000px;
+  background-size: 100%;
 }
 
 #siteName{
@@ -14,17 +14,8 @@
   display: flex;
 }
 
-.container{
-  background-color: #374885;
-  color: white;
-}
-
-.list-group-item{
-  background-color: #374885;
-}
-
 .rules-container{
-  background-color: #374885;
+  background-color: #CC527A;
   margin-top: 10px;
   margin-left: 75px;
   margin-right: 75px; 

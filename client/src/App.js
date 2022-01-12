@@ -12,7 +12,9 @@ function App() {
   // console.log(process.env.REACT_APP_AIRTABLE_KEY)
  
   return (
-    <div className="App">
+    <div className="App" style={{ 
+      backgroundImage: `url("https://developers.giphy.com/branch/master/static/api-512d36c09662682717108a38bbb5c57d.gif")` 
+    }} >
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
