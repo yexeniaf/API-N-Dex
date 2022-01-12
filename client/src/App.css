@@ -1,14 +1,12 @@
 .App {
   text-align: center;
-  Background-color: #A8D0E6;
+  Background-color: ;
   height: 1000px;
 }
 
 nav{
-  margin: 5px;
   padding: 7px;
-  border-radius: 2px;
-  background-color: #24305E;
+  background-color: #363636;
 }
 
 #siteName{
