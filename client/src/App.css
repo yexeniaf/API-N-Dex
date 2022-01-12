@@ -6,6 +6,12 @@
 
 #siteName{
   color: #E81750;
+  padding-left: 10px;
+}
+
+.nav-link{
+  margin-right: 50px;
+
 }
 
 .container{
