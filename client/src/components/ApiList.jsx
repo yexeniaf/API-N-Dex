@@ -15,7 +15,7 @@ export default function ApiList() {
     }, [])
 
 
-    return <div className="card">
+    return <div className="container">
             <ul>
                 {apis.map((api) => {
                     return (
