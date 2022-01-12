@@ -1,27 +1,16 @@
 .App {
   text-align: center;
-  Background-color: ;
+  Background-color: #A8A7A7;
   height: 1000px;
 }
 
-nav{
-  padding: 7px;
-  background-color: #363636;
-}
+
 
 #siteName{
-  color: #E85A4F;
+  color: #E81750;
 }
 
-.btn {
-  margin: 5px;
-  padding: 5px;
-}
 
-.text-link {
-  color: white;
-  text-decoration: inherit;
-}
 
 .container{
   background-color: #374885;
