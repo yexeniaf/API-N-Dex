@@ -21,6 +21,9 @@
   color:white;
 
 }
+
+
+
 .detail-container{
   background-color: wheat;
   margin: 25px;
@@ -28,8 +31,6 @@
   font-size: small;
 }
 
-.card-group{
-  padding-top: 20px;
-}
+
 
 

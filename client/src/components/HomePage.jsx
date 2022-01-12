@@ -5,7 +5,6 @@ import ReactDOM from "react-dom";
 export default function HomePage() {
     return (
         <div>
-           
             <div className="jumbotron">
                 <div className="rules-container">
                     <h2>Rules For This Site: </h2>
