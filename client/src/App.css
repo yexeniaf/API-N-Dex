@@ -34,7 +34,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  margin-left: 5%;
+  margin: 5%;
+;
 }
 
 
