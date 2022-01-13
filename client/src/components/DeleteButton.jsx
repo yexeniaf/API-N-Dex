@@ -11,7 +11,7 @@ export default function DeleteButton(props) {
     }
 
     return (
-        <div>
+        <div >
             <button onClick={handleDelete}>Delete API</button>
         </div>
     )
