@@ -16,14 +16,14 @@ export default function ApiList() {
 
 
     return (
-        <div className="list-container">               
+        <div className="container">               
                 {apis.map((api) => {
                     return (
-                        <div className='row' key={api.id}>
+                        <div className='col-sm-6 col-md-5 col-lg-6' key={api.id}>
                             <Link to={`/apis/${api.id}`}>
-                                <div className='col' >
+                                <div  >
                                     <img 
-                                        style={{width: '30%'}}
+                                        style={{width: '50%'}}
                                         src={api.fields.imageUrl}
                                         alt={api.fields.title} />  
                                         <br/>
