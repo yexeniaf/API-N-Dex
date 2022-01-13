@@ -8,7 +8,7 @@ export default function Form(props) {
             <br/>
             <input 
                 name="title"
-                style={{ width: '50%'}}
+                style={{ width: '70%'}}
                 value={title}
                 placeholder="Add API Title"
                 onChange={props.handleTextInput}
@@ -18,7 +18,7 @@ export default function Form(props) {
             <br/>
             <textarea 
                 name="description"
-                style={{ width: '80%'}}
+                style={{ width: '70%'}}
                 value={description}
                 placeholder="Add API Description"
                 onChange={props.handleTextInput}
@@ -28,6 +28,7 @@ export default function Form(props) {
             <br/>
             <input 
                 name="link"
+                style={{ width: '70%'}}
                 value={link}
                 placeholder="Add API Link"
                 onChange={props.handleTextInput}
@@ -37,7 +38,7 @@ export default function Form(props) {
             <br/>
             <input 
                 name="imageUrl"
-                
+                style={{ width: '70%'}}
                 value={imageUrl}
                 placeholder="Add the API's image URL"
                 onChange={props.handleTextInput}

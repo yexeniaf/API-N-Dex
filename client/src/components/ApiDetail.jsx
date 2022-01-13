@@ -25,8 +25,7 @@ export default function ApiDetail() {
         <div className='detail-container'>
             <h2>{apiDetail.fields?.title}</h2>
             <br/>
-            <br/>
-            <img style={{width: "300px"}} src={apiDetail.fields.imageUrl} alt={apiDetail.fields.title}/>
+            <img style={{width: "70%"}} src={apiDetail.fields.imageUrl} alt={apiDetail.fields.title}/>
             <br/>
             <br/>
             <h3>{apiDetail.fields?.description}</h3> 
@@ -35,6 +34,7 @@ export default function ApiDetail() {
             <h4>{apiDetail.fields?.link}</h4>
             <br/>
             <DeleteButton id={id}/>
+            <br/>
             <LikeButton />
         </div>
     )
