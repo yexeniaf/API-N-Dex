@@ -16,7 +16,6 @@
 
 .rules-container{
   background-color: #cc527be3;
-  margin-top: 10px;
   margin: 10%;
   color:white;
 
@@ -44,9 +43,10 @@
 
 .form-container{
   background-color: #cc527be3;
-  margin-top: 10px;
-  margin: 10%;
-  color:white;
+  margin: 15%;
+  padding: 5px;
+  width: auto; 
+  color: white;
 }
 
 

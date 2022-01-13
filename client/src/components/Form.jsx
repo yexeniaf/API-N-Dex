@@ -13,9 +13,9 @@ export default function Form(props) {
                 onChange={props.handleTextInput}
             />   
             <br/>
-            <label>Description</label>
+            <label for="exampleFormControlTextarea1">Description</label>
             <br/>
-            <input 
+            <textarea 
                 name="description"
                 value={description}
                 placeholder="Add API Description"
