@@ -14,9 +14,15 @@
   display: flex;
 }
 
+.free{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
 .rules-container{
   background-color: #cc527be3;
-  margin: 10%;
+  margin: 30px 100px 60px 100px;
   padding-right: 30px;
   color:white;
   text-align: center;

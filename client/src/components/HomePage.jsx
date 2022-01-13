@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 export default function HomePage() {
     return (
         <div>
+            <h1 className= "free">Free APIs For Your Next Project</h1>
             <div className="jumbotron">
                 <div className="rules-container">
                     <h2>Rules For This Site: </h2>
