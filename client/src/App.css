@@ -48,11 +48,10 @@
 
 
 .detail-container{
-  background-color: wheat;
-  margin: 25px;
+  background-color: rgba(116, 77, 153, 0.925);
+  margin: 5% 2% 7% 2%;
   padding: 15px;
-  font-size: small;
-
+  color: white;
 }
 
 .form-container{
