@@ -12,7 +12,7 @@ export default function DeleteButton(props) {
 
     return (
         <div >
-            <button onClick={handleDelete}>Delete API</button>
+            <button type="button" className="btn btn-danger" onClick={handleDelete}>Delete API</button>
         </div>
     )
 }
