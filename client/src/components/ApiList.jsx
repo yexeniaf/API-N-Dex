@@ -15,7 +15,7 @@ export default function ApiList() {
     }, [])
 
 
-    return <div className="row">
+    return <div className="card-deck">
             <div className='col-sm-12'>                
                 {apis.map((api) => {
                     return (
