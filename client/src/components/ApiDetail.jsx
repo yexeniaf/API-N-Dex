@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import api from '../services/apiConfig';
 import DeleteButton from './DeleteButton';
+import LikeButton from './LikeButton';
 
 
 export default function ApiDetail() {
@@ -34,6 +35,7 @@ export default function ApiDetail() {
             <h4>{apiDetail.fields?.link}</h4>
             <br/>
             <DeleteButton id={id}/>
+            <LikeButton />
         </div>
     )
 }

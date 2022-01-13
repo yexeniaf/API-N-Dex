@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+
 
 export default function Footer() {
     return (
         <footer className='footer'>
-            <h4>this is a footer</h4>
+            <img    
+             href='https://github.com/yexeniaf'
+             /> 
         </footer>
     )
 }
