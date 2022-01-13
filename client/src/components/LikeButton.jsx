@@ -6,6 +6,7 @@ export default function LikeButton() {
     const increment = () => {
         setCount((prevCount) => prevCount +1)
     }
+    
 
     return (
         <div>
