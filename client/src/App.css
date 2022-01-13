@@ -22,7 +22,7 @@
 
 .rules-container{
   background-color: #cc527be3;
-  margin: 30px 100px 60px 100px;
+  margin: 30px 100px 150px 100px;
   padding-right: 30px;
   color:white;
   text-align: center;
@@ -64,7 +64,9 @@
 }
 
 .footer{
-  Background-color: #363636;
+  background-color: #363636;
+  background-size: 100%;
   color: white;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
