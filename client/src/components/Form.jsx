@@ -18,6 +18,7 @@ export default function Form(props) {
             <br/>
             <textarea 
                 name="description"
+                style={{ width: '80%'}}
                 value={description}
                 placeholder="Add API Description"
                 onChange={props.handleTextInput}
