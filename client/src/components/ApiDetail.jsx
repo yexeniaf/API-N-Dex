@@ -36,7 +36,7 @@ export default function ApiDetail() {
             <br/>
             <DeleteButton id={id}/>
             <br/>
-            <LikeButton />
+            <LikeButton id={id} likes={apiDetail.fields?.likes}/>
             </div>
         </div>
     )

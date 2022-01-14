@@ -8,12 +8,12 @@ export default function ApiList() {
     useEffect(() => {
         const fetchApis = async() => {
             const res = await api.get();
-            console.log(res.data.records);
+            console.log(res.data.records.sort());
             setApis(res.data.records)
         }
         fetchApis()
     }, [])
-
+console.log(apis)
     
 
 
@@ -21,7 +21,9 @@ export default function ApiList() {
         <div className="container">               
                 {apis.map((api) => {
                     return (
+                        
                         <div className='col-sm-6  ml-auto' key={api.id}>
+                            <div className="card-inner">
                             <Link to={`/apis/${api.id}`}>
                                 <div>
                                     <img 
@@ -34,7 +36,7 @@ export default function ApiList() {
                                 </div>
                             </Link>
                         </div>
-                        
+                        </div>
                     )
                 })}
         </div>     
