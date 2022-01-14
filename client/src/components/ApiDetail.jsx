@@ -38,9 +38,9 @@ export default function ApiDetail() {
             <br/>
             <LikeButton id={id} likes={apiDetail.fields?.likes}/>
             </div>
-            <container>
+            <div>
                 <h3> This will be a comment section</h3>
-            </container>
+            </div>
         </div>
     )
 }

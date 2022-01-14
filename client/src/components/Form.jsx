@@ -46,14 +46,14 @@ export default function Form(props) {
             <br/>
             <label>Key</label>
             <br/>
-            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
                 <option selected>Choose...</option>
                 <option value="1">No API Key Needed</option>
                 <option value="2">API Key Needed</option>
             </select>
             <br/>
             <br/>
-            <button class>{props.type}</button>   
+            <button>{props.type}</button>   
         </form>
     )
 }
