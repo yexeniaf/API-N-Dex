@@ -35,7 +35,6 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 5%;
-    background-color: #cc527be3;
     align-content: center;
     justify-content: space-around;
     border: black;
@@ -43,7 +42,7 @@
 }
 
 .card-inner{
-  background-color: red;
+  background-color: #cc527be3;
   height: 300px;
   display: flex;
   align-items: center;
