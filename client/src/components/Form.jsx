@@ -14,7 +14,7 @@ export default function Form(props) {
                 onChange={props.handleTextInput}
             />   
             <br/>
-            <label for="exampleFormControlTextarea1">Description</label>
+            <label htmlFor="exampleFormControlTextarea1">Description</label>
             <br/>
             <textarea 
                 name="description"
@@ -47,7 +47,7 @@ export default function Form(props) {
             <label>Key</label>
             <br/>
             <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option selected>Choose...</option>
+                <option defaultValue={true}>Choose...</option>
                 <option value="1">No API Key Needed</option>
                 <option value="2">API Key Needed</option>
             </select>
