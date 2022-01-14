@@ -36,7 +36,6 @@
     align-content: center;
     justify-content: space-around;
     border: black;
-
 }
 
 .card-inner{
@@ -73,8 +72,6 @@
   font-size: large;
   justify-content: center;
 }
-
-
 
 .form-container{
   background-color: #cc527be3;
