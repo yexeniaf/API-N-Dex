@@ -8,13 +8,13 @@ export default function ApiList() {
     useEffect(() => {
         const fetchApis = async() => {
             const res = await api.get();
-            console.log(res.data.records.sort());
-            setApis(res.data.records)
+            console.log(res.data.records);
+            setApis(res.data.records.sort((a, b) => {
+                return a.fields.title.localeCompare(b.fields.title)
+            }))
         }
         fetchApis()
     }, [])
-console.log(apis)
-    
 
 
     return (
