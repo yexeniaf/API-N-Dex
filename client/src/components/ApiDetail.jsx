@@ -22,6 +22,7 @@ export default function ApiDetail() {
     }
 
     return (
+        <div>
         <div className='detail-container'>
             <h2 className='detail-title'>{apiDetail.fields?.title}</h2>
             <br/>
@@ -36,6 +37,7 @@ export default function ApiDetail() {
             <DeleteButton id={id}/>
             <br/>
             <LikeButton />
+            </div>
         </div>
     )
 }
