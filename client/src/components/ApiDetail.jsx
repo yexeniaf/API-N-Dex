@@ -23,15 +23,15 @@ export default function ApiDetail() {
 
     return (
         <div className='detail-container'>
-            <h2>{apiDetail.fields?.title}</h2>
+            <h2 className='detail-title'>{apiDetail.fields?.title}</h2>
             <br/>
-            <img style={{width: "70%"}} src={apiDetail.fields.imageUrl} alt={apiDetail.fields.title}/>
-            <br/>
-            <br/>
-            <h3>{apiDetail.fields?.description}</h3> 
+            <img style={{width: '50%'}} src={apiDetail.fields.imageUrl} alt={apiDetail.fields.title}/>
             <br/>
             <br/>
-            <h4>{apiDetail.fields?.link}</h4>
+            <h3 className="description">{apiDetail.fields?.description}</h3> 
+            <br/>
+            <br/>
+            <h4 className='link'>{apiDetail.fields?.link}</h4>
             <br/>
             <DeleteButton id={id}/>
             <br/>
