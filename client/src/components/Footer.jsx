@@ -8,7 +8,14 @@ export default function Footer() {
             <img
                 className='github-icon'
                 src='https://cdn3.iconfinder.com/data/icons/inficons/512/github.png'
-                alt="github"
+                alt="github icon"
+             />
+             <br/>
+             <br/> 
+             <img
+                className='li-icon'
+                src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
+                alt="linkedin icon"
              /> 
              </div>
         </footer>

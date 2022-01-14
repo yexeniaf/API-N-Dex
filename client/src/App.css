@@ -89,11 +89,26 @@
   background-size: 100%;
   color: white;
   padding-top: 10px;
-  padding-bottom: 3px;
+  padding-bottom: .2%;
+  margin-top: 1.4%;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: .5%;
 }
 
 .github-icon{
   border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: .5%;
+}
+
+.li-icon{
+  border-radius: 20%;
   height: 40px;
   width: 40px;
 }
