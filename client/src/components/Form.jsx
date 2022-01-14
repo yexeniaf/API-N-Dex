@@ -44,6 +44,14 @@ export default function Form(props) {
                 onChange={props.handleTextInput}
             />  
             <br/>
+            <label>Key</label>
+            <br/>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">No API Key Needed</option>
+                <option value="2">API Key Needed</option>
+            </select>
+            <br/>
             <br/>
             <button class>{props.type}</button>   
         </form>
