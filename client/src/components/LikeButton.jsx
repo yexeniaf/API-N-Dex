@@ -15,7 +15,7 @@ export default function LikeButton(props) {
 
     return (
         <div>
-            <button onClick={increment}>Likes {count}</button>
+            <button type="like-button" className="btn btn-light" onClick={increment}>Likes: {count}</button>
         </div>
     )
 }
