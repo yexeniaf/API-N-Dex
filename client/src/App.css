@@ -44,10 +44,7 @@
 
 .col-sm-6{
   padding: 3%;
-  
 }
-
-
 
 .detail-container{
   background-color: rgba(116, 77, 153, 0.925);
@@ -55,6 +52,18 @@
   padding: 15px;
   color: white;
 }
+
+.detail-title{
+  font-size: xx-large;
+}
+
+ .description{
+   font-size: large;
+ }
+
+ .link{
+    
+ }
 
 .form-container{
   background-color: #cc527be3;
