@@ -34,7 +34,6 @@ export default function ApiDetail() {
             <br/>
             <h4 className='link'>{apiDetail.fields?.link}</h4>
             <br/>
-            {apiDetail.fields.key ? <p>Key Needed</p> : <p>No Key Needed</p>}
             <DeleteButton id={id}/>
             <br/>
             <LikeButton id={id} likes={apiDetail.fields?.likes}/>

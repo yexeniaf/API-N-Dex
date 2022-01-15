@@ -75,22 +75,17 @@
 
 .form-container{
   background-color: #cc527be3;
-  margin: 2% 15% 15% 15%;
+  margin: 8% 15% 15% 15%;
   padding: 5%;
   width: auto; 
   color: white;
-}
-
-.new-title{
-  color: white;
-  margin-top: 2%;
 }
 
 .footer{
   background-color: #363636;
   background-size: 100%;
   color: white;
-  padding-top: .3%;
+  padding-top: .2%;
   padding-bottom: .2%;
   margin-top: 1.4%;
 }

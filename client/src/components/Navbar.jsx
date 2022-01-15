@@ -26,7 +26,7 @@ export default function Navbar() {
                 <form className="d-flex">
                   <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                   <button className="btn btn-light" type="submit" style={{marginLeft:'5px', color: 'salmon'}} >Search</button>
-                </form>
+              </form>
             </div>
         </div>
       </nav>

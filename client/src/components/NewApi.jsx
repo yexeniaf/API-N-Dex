@@ -8,7 +8,6 @@ const default_input = {
     imageUrl: "",
     description: "",
     link: "",
-    key: true,
 }
 
 export default function NewApi() {
@@ -30,27 +29,17 @@ export default function NewApi() {
             ...prevInput,
             [name]: value,
         }))
-    }    
-
-    const handleCheckbox = (event) => {
-            const {name, checked } = event.target;
-            setInput((prevInput) => ({
-                ...prevInput,
-                [name]: checked,
-            }))
-        }
+    };
 
 
     return (
-        <div> 
-            <h1 className="new-title">Add New API</h1>
+        <div> Add New API
             <br/>
             <br/>
             <Form
                 input={input}
                 handleTextInput={handleTextInput}
                 handleSubmit={handleSubmit}
-                handleCheckbox={handleCheckbox}
                 type={"Create"} 
             />
             
