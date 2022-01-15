@@ -75,10 +75,15 @@
 
 .form-container{
   background-color: #cc527be3;
-  margin: 8% 15% 15% 15%;
+  margin: 2% 15% 15% 15%;
   padding: 5%;
   width: auto; 
   color: white;
+}
+
+.new-title{
+  color: white;
+  margin-top: 2%;
 }
 
 .footer{

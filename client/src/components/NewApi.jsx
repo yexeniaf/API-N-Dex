@@ -42,7 +42,8 @@ export default function NewApi() {
 
 
     return (
-        <div> Add New API
+        <div> 
+            <h1 className="new-title">Add New API</h1>
             <br/>
             <br/>
             <Form
