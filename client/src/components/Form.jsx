@@ -1,5 +1,5 @@
 export default function Form(props) {
-    const { title, description, link, imageUrl } = props.input
+    const { title, description, link, imageUrl, key } = props.input
 
 
     return (
@@ -44,13 +44,15 @@ export default function Form(props) {
                 onChange={props.handleTextInput}
             />  
             <br/>
-            <label>Key</label>
             <br/>
-            <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option defaultValue={true}>Choose...</option>
-                <option value="1">No API Key Needed</option>
-                <option value="2">API Key Needed</option>
-            </select>
+            <label> Check Box If Key Is Needed:</label>
+            <br/>
+            <input
+                type="checkbox"
+                name="key"
+                checked={key}
+                onChange={props.handleCheckbox}
+            />
             <br/>
             <br/>
             <button>{props.type}</button>   

@@ -8,6 +8,7 @@ const default_input = {
     imageUrl: "",
     description: "",
     link: "",
+    key: true,
 }
 
 export default function NewApi() {
@@ -29,6 +30,14 @@ export default function NewApi() {
             ...prevInput,
             [name]: value,
         }))
+
+    const handleCheckbox = (event) => {
+        const {name, checked } = event.target;
+        setInput((prevInput) => ({
+            ...prevInput,
+            [name]: checked,
+        }))
+    }   
     };
 
 
