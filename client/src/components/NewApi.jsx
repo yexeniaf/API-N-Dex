@@ -30,15 +30,15 @@ export default function NewApi() {
             ...prevInput,
             [name]: value,
         }))
+    }    
 
     const handleCheckbox = (event) => {
-        const {name, checked } = event.target;
-        setInput((prevInput) => ({
-            ...prevInput,
-            [name]: checked,
-        }))
-    }   
-    };
+            const {name, checked } = event.target;
+            setInput((prevInput) => ({
+                ...prevInput,
+                [name]: checked,
+            }))
+        }
 
 
     return (
@@ -49,6 +49,7 @@ export default function NewApi() {
                 input={input}
                 handleTextInput={handleTextInput}
                 handleSubmit={handleSubmit}
+                handleCheckbox={handleCheckbox}
                 type={"Create"} 
             />
             
