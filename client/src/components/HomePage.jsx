@@ -19,6 +19,11 @@ export default function HomePage() {
                     </ul>
                 </div>
             </div>
+            <container>
+            <h2>Updates:</h2>
+            <p>Here will be the updates!!!
+            </p>
+            </container>
         </div>
     )
 }
