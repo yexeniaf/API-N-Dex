@@ -1,5 +1,5 @@
 export default function Form(props) {
-    const { title, description, link, imageUrl } = props.input
+    const { title, description, link, imageUrl, key } = props.input
 
 
     return (
@@ -43,6 +43,15 @@ export default function Form(props) {
                 placeholder="Add the API's image URL"
                 onChange={props.handleTextInput}
             />  
+            <br/>
+            <label>Click if a need is needed key:</label>
+            <br/>
+            <input 
+            type="checkbox"
+            name="key"
+            checked={key}
+            onChange={props.handleCheckbox}
+            />
             <br/>
             <br/>
             <button>{props.type}</button>   
