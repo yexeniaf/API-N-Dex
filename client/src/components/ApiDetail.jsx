@@ -3,8 +3,6 @@ import { useParams } from "react-router-dom";
 import api from '../services/apiConfig';
 import DeleteButton from './DeleteButton';
 import LikeButton from './LikeButton';
-import { Link } from 'react-router-dom';
-
 
 
 export default function ApiDetail() {
@@ -34,9 +32,7 @@ export default function ApiDetail() {
             <h3 className="description">{apiDetail.fields?.description}</h3> 
             <br/>
             <br/>
-            <Link className='link' style={{textDecoration: 'none'}} to={{ pathname:'apiDetail.fields?.link'}} target="_blank">{apiDetail.fields?.link}</Link>
-            <br/>
-            {apiDetail.fields.key ? <p>Key Is Needed</p> : <p>No Key Is Needed</p>}
+            <h4 className='link'>{apiDetail.fields?.link}</h4>
             <br/>
             <DeleteButton id={id}/>
             <br/>
