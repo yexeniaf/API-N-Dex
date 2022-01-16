@@ -34,7 +34,7 @@ export default function ApiDetail() {
             <h3 className="description">{apiDetail.fields?.description}</h3> 
             <br/>
             <br/>
-            <Link className='link' style={{textDecoration: 'none'}} to={{ pathname:'apiDetail.fields?.link'}} target="_blank">{apiDetail.fields?.link}</Link>
+            <h4 className='link' >{apiDetail.fields?.link}</h4>
             <br/>
             {apiDetail.fields.key ? <p>Key Is Needed</p> : <p>No Key Is Needed</p>}
             <br/>

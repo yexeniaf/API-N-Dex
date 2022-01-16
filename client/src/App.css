@@ -82,6 +82,7 @@
   display: flex;
   font-size: large;
   justify-content: center;
+  text-decoration: none;
 }
 
 .form-container{
@@ -119,4 +120,9 @@
   border-radius: 20%;
   height: 40px;
   width: 40px;
+}
+
+.list-link{
+  text-decoration-color: white;
+  color: white;
 }

@@ -32,7 +32,7 @@ export default function ApiList() {
                                         alt={api.fields.title} />  
                                         <br/>
                                         <br/>  
-                                    <h4>{api.fields.title} </h4>
+                                    <h4 className='list-link'>{api.fields.title} </h4>
                                 </div>
                             </Link>
                         </div>
