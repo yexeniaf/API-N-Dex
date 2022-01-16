@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 
 
 export default function HomePage() {
@@ -19,11 +20,14 @@ export default function HomePage() {
                     </ul>
                 </div>
             </div>
-            <container>
-            <h2>Updates:</h2>
-            <p>Here will be the updates!!!
-            </p>
-            </container>
+            <div className="updates">
+                <container>
+                    <h2>Updates</h2>
+                        <h3>More Features Soon!</h3>
+                        <p>As we develop this site we will update everyone of the new features.</p>
+                    <em> Jan. 16, 2022</em>
+                </container>
+            </div>
         </div>
     )
 }
