@@ -10,17 +10,12 @@ export default function HomePage() {
                     <h2>Rules For This Site: </h2>
                     <br/>
                     <ul id="rules" style={{listStyleType:'none'}}>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
+                        <li>1. This site is for free API's, please make sure that there is not subscription needed or any form of payment. </li>
                         <br/>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
+                        <li>2. Keep it respectful, as our main goal is to help users and provde them easier access to free APIs</li>
                         <br/>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
+                        <li>3. No duplicates, this is to help keep the list organized. Soon we will update the site to avoid any dulipcated to be submitted.</li>
                         <br/>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
-                        <br/>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
-                        <br/>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem ut a quia aut, sunt commodi et minima neque fuga perferendis, omnis totam expedita odit sed eligendi doloremque facilis distinctio!</li>
                     </ul>
                 </div>
             </div>
