@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import api from '../services/apiConfig';
 import DeleteButton from './DeleteButton';
 import LikeButton from './LikeButton';
-import { Link } from 'react-router-dom';
 
 
 
