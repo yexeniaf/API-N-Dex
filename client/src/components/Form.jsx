@@ -54,7 +54,7 @@ export default function Form(props) {
             />
             <br/>
             <br/>
-            <button type="button" className="btn btn-success">{props.type}</button>   
+            <button>{props.type}</button>   
         </form>
     )
 }
