@@ -19,7 +19,7 @@ export default function NewApi() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const fields = input;
-        const res = await api.post("/", {fields});
+         await api.post("/", {fields});
         setInput(default_input);
         navigate("/apis")
     }

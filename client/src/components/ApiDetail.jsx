@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import api from '../services/apiConfig';
 import DeleteButton from './DeleteButton';
 import LikeButton from './LikeButton';
-import { Link } from 'react-router-dom';
 
 
 
@@ -11,13 +10,15 @@ export default function ApiDetail() {
     const [ apiDetail, setApiDetail] = useState({});
     const {id} = useParams();
 
+
     useEffect(() => {
         const fetchApi = async () => {
             const res = await api.get(`/${id}`)
             setApiDetail(res.data)
         }
+        // eslint-disable-next-line
         fetchApi();
-    }, [])
+    }, [id])
 
     if (!apiDetail.fields) {
         return <div>LOADING</div>

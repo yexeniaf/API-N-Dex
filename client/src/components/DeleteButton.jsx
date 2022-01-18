@@ -6,7 +6,7 @@ export default function DeleteButton(props) {
     const navigate = useNavigate();
 
     const handleDelete = async () => {
-        const res = await api.delete(`/${props.id}`)
+        await api.delete(`/${props.id}`)
         navigate("/apis")
     }
 
